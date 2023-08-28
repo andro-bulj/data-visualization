@@ -19,7 +19,7 @@ const navbar = ({navigate, handleLogOut, name }) => {
           <Nav.Link className="goals" onClick={() => navigate("goals")}>Goals</Nav.Link>
         </Nav>
         <div className="badge">{name}</div>
-        <Button onClick={handleLogOut} variant="light">
+        <Button onClick={() => handleLogOut()} variant="light">
           Log out
         </Button>
       </Container>
