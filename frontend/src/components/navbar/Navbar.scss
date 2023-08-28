@@ -1,0 +1,20 @@
+.navbar {
+  background-color: #708090;
+
+  .brand-name {
+    color: white;
+  }
+
+  .home {
+    margin-left: 20px;
+  }
+
+  .badge {
+    margin-right: 10px;
+  }
+
+  .home,
+  .transactions {
+    margin-right: 20px;
+  }
+}

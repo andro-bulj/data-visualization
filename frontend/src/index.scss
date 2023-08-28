@@ -1,0 +1,105 @@
+$navyBlue: #001f3f;
+$gold: #ffd700;
+$white: #ffffff;
+$silverGray: #c0c0c0;
+$mintGreen: #00ff00;
+$paleYellow: #ffff99;
+$slateGray: #708090;
+$royalPurple: #6a0dad;
+$softPeach: #ffdab9;
+
+.mainDivAdd {
+  height: 100vh;
+  width: 100vw;
+
+  background-color: #2f5d62;
+}
+
+.main-app-div {
+  height: 100vh;
+  width: 100vw;
+
+  background-color: $navyBlue;
+  overflow: auto;
+
+  .home-screen {
+    display: flex;
+    height: calc(100% - 56px);
+
+    .right-home-content {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+
+      .input-form {
+        width: 100%;
+
+        .title {
+          padding: 20px 30px;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .transactions-table {
+    margin: 20px;
+
+    .filter-dropdown {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .date-select {
+      cursor: pointer;
+      margin-left: 20px;
+      display: flex;
+      align-items: center;
+      color: #0d6efd;
+      font-size: 20px;
+      span {
+        color: white;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+.login {
+  .form-label {
+    color: white;
+  }
+}
+
+h2 {
+  color: white;
+}
+
+.deleteBtn {
+  width: 55px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: $navyBlue;
+
+  .title {
+    color: white;
+    margin-bottom: 50px;
+  }
+}
+
+html Form Button {
+  margin: 10px 10px 10px 0px;
+}
+
+.editField {
+  display: flex;
+  column-gap: 10px;
+}

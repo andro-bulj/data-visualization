@@ -1,0 +1,21 @@
+.transaction-form {
+    padding: 0px 40px 40px 60px;
+
+    label {
+        color: white;
+    }
+
+    .income-or-expense {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .action-buttons {
+        display: flex;
+        justify-content: flex-end;
+
+        button {
+            width: 100px;
+        }
+    }
+}

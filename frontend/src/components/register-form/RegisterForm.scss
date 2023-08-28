@@ -1,0 +1,12 @@
+.register-form {
+    width: 30%;
+
+    .buttons {
+        display: flex;
+        justify-content: flex-end;
+
+        .register-button{
+            margin-right: 0px;
+        }
+    }
+}
