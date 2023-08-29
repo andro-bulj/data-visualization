@@ -40,7 +40,7 @@ U tablici su prikazani redom kategorija, datum transakcije, iznos sa ikonom pore
 
 ![Transactions screen](readme-images/transactions-screen.png)
 
-#Goals ekran
+# Goals ekran
 Ekran koji služi za praćenje i postavljanje ciljeva za štednju. 
 
 Pri vrhu ekrana imamo unos za iznos i naslov cilja te klikom na Add new goal se dodaje novi cilj. Novi cilj je prikazan ispod te se može dodavati i oduzimati od ukupne količine u svrhu praćenja. Kada se dosegne preko 100% od cilja se može izvršiti, umjesto gumba Delete se pojavi gumb Complete sa kojim se završava cilj i ide na desnu stranu svih završenih ciljeva. 
