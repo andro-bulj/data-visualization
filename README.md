@@ -48,3 +48,14 @@ Pri vrhu ekrana imamo unos za iznos i naslov cilja te klikom na Add new goal se 
 Na desnoj strani su prikazani svi ciljevi koji su završeni sa nazivom, iznosom i datumom od kada do kada je cilj završen. Klikom na crveni X se briše završeni cilj.
 
 ![Goals screen](readme-images/goals-screen.png)
+
+
+# Različiti grafovi 
+
+![Line chart](readme-images/line-chart.png)
+![Area chart](readme-images/area-chart.png)
+![Bar chart](readme-images/bar-chart.png)
+![Double area chart](readme-images/double-area-chart.png)
+![Pie chart](readme-images/pie-chart.png)
+![Radar chart](readme-images/radar-chart.png)
+![Combined chart](readme-images/combined-chart.png)
