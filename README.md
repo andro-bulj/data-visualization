@@ -27,6 +27,24 @@ Ispod se nalazi graf koji prikazuje top 5 kategorija po totalnim prihodima ili r
 
 Na desnoj strani na vrhu se nalazi unos nove transakcije. Može se odabrati jedna od ponuđenih kategorija u izborniku, unijeti iznos i označiti je li prihod ili rashod, datum transakcije i zabilješka o transakciji. Na gumb Cancel se poništava unos, a ako je sve unešeno pravilno na gumb Add se dodaje nova transakcija i grafovi se ažuriraju.
 
-Ispod unosa se nalazi kombinirani stupičasti i linijski graf koji prikazuje podatke o ciljevima koje je korisnik postavio i izvršio.
+Ispod unosa nove transakcije se nalazi kombinirani stupičasti i linijski graf koji prikazuje podatke o ciljevima koje je korisnik postavio i izvršio. Stupac prikazuje broj dana koliko je trebalo da se dođe do cilja, a linija prosječno koliko je ušteđeno po danu. 
 
 ![Register screen](readme-images/home-screen.png)
+
+# Transactions ekran
+Ekran koji u tablici prikazuje sve do sada unesene transakcije.
+
+Poviš tablice se nalazi izbornik koji sadrži sve kategorije koje je korisnik unio te se klikom na njih prikaže samo ta odabrana kategorija ili se odabere opcija da se ne filtrira. Pored se nalazi Date order te klikom na njega se mijenja sortiranje transakcija u tablici silazno ili uzlazno.
+
+U tablici su prikazani redom kategorija, datum transakcije, iznos sa ikonom pored s obzirom je li rashod ili prihod i zabilješka transakcije koja se može uređivati klikom na ikonu olovke. Na crveni gumb X se briše transakcija.
+
+![Transactions screen](readme-images/transactions-screen.png)
+
+#Goals ekran
+Ekran koji služi za praćenje i postavljanje ciljeva za štednju. 
+
+Pri vrhu ekrana imamo unos za iznos i naslov cilja te klikom na Add new goal se dodaje novi cilj. Novi cilj je prikazan ispod te se može dodavati i oduzimati od ukupne količine u svrhu praćenja. Kada se dosegne preko 100% od cilja se može izvršiti, umjesto gumba Delete se pojavi gumb Complete sa kojim se završava cilj i ide na desnu stranu svih završenih ciljeva. 
+
+Na desnoj strani su prikazani svi ciljevi koji su završeni sa nazivom, iznosom i datumom od kada do kada je cilj završen. Klikom na crveni X se briše završeni cilj.
+
+![Goals screen](readme-images/goals-screen.png)
