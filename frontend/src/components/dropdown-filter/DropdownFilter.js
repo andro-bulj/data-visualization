@@ -1,7 +1,7 @@
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
 
-function AppDropdown({ transactionsData, changeFilterBy }) {
+function DropdownFilter({ transactionsData, changeFilterBy }) {
   const unique = [...new Set(transactionsData.map((item) => item.category))];
 
   return (
@@ -23,4 +23,4 @@ function AppDropdown({ transactionsData, changeFilterBy }) {
   );
 }
 
-export default AppDropdown;
+export default DropdownFilter;

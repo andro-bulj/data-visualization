@@ -4,7 +4,7 @@ import InputForm from "./components/input-form/InputForm";
 import LoginForm from "./components/login-form/LoginForm";
 import RegisterForm from "./components/register-form/RegisterForm";
 import Table from "./components/table/Table";
-import AppDropdown from "./components/app-dropdown/AppDropdown";
+import DropdownFilter from "./components/dropdown-filter/DropdownFilter";
 import HomeGraphs from "./components/home-graphs/HomeGraphs";
 import GoalsScreen from "./components/goals-screen/GoalsScreen";
 import GoalsChart from "./components/goals-chart/GoalsChart";
@@ -297,10 +297,10 @@ const App = () => {
         <div className="transactions-table">
           <div>
             <div className="filter-dropdown">
-              <AppDropdown
+              <DropdownFilter
                 transactionsData={transactions}
                 changeFilterBy={changeFilterBy}
-              ></AppDropdown>
+              ></DropdownFilter>
 
               <div className="date-select" onClick={() => setDateAsc(!dateAsc)}>
                 <span>Date order</span>{" "}
