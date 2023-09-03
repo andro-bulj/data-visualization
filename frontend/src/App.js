@@ -5,7 +5,7 @@ import LoginForm from "./components/login-form/LoginForm";
 import RegisterForm from "./components/register-form/RegisterForm";
 import Table from "./components/table/Table";
 import AppDropdown from "./components/app-dropdown/AppDropdown";
-import HomeGraph from "./components/home-graph/HomeGraph";
+import HomeGraphs from "./components/home-graphs/HomeGraphs";
 import GoalsScreen from "./components/goals-screen/GoalsScreen";
 import GoalsChart from "./components/goals-chart/GoalsChart";
 import "./index.scss";
@@ -282,7 +282,7 @@ const App = () => {
       ></Navbar>
       {currentTab === "home" ? (
         <div className="home-screen">
-          <HomeGraph graphData={transactions}></HomeGraph>
+          <HomeGraphs graphData={transactions}></HomeGraphs>
           <div className="right-home-content">
             <div className="input-form">
               <div className="title">

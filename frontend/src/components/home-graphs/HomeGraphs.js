@@ -24,9 +24,9 @@ import {
 } from "recharts";
 import { FaChartArea, FaChartLine, FaChartBar } from "react-icons/fa";
 import { AiOutlineRadarChart, AiFillPieChart } from "react-icons/ai";
-import "./HomeGraph.scss";
+import "./HomeGraphs.scss";
 
-const HomeGraph = ({ graphData }) => {
+const HomeGraphs = ({ graphData }) => {
   const sortByDate = (a, b) => {
     return new Date(a.date) - new Date(b.date);
   };
@@ -419,4 +419,4 @@ const HomeGraph = ({ graphData }) => {
   );
 };
 
-export default HomeGraph;
+export default HomeGraphs;
