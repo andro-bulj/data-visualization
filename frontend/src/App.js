@@ -259,7 +259,7 @@ const App = () => {
     } else {
       return (
         <div className="login">
-          <h1 className="title">Budget visualiser</h1>
+          <h1 className="title">Budget Visualiser</h1>
           <LoginForm
             username={username}
             password={password}
