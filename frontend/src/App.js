@@ -240,10 +240,10 @@ const App = () => {
   };
 
   if (!loggedIn) {
-    if (register) {
-      return (
-        <div className="login">
-          <h1 className="title">Budget Visualiser</h1>
+    return (
+      <div className="login">
+        <h1 className="title">Budget Visualiser</h1>
+        {register ? (
           <RegisterForm
             name={name}
             username={username}
@@ -254,12 +254,7 @@ const App = () => {
             handleCancel={handleCancel}
             handleRegister={handleRegister}
           ></RegisterForm>
-        </div>
-      );
-    } else {
-      return (
-        <div className="login">
-          <h1 className="title">Budget Visualiser</h1>
+        ) : (
           <LoginForm
             username={username}
             password={password}
@@ -268,9 +263,9 @@ const App = () => {
             handleLogin={handleLogin}
             handleRegister={handleRegister}
           ></LoginForm>
-        </div>
-      );
-    }
+        )}
+      </div>
+    );
   }
 
   return (
