@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const goalsUrl = "http://192.168.178.51:3001/api/goals";
-const usersUrl = "http://192.168.178.51:3001/api/users";
+const goalsUrl = "http://localhost:3001/api/goals";
+const usersUrl = "http://localhost:3001/api/users";
 
 const getAllGoals = (username) => {
   return axios.get(`${usersUrl}/${username}/goals`);

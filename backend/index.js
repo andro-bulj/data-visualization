@@ -5,7 +5,7 @@ const logger = require('./utils/logger')
 
 const server = http.createServer(app)
 
-const HOSTNAME="192.168.178.51"
+const HOSTNAME="localhost"
 
 server.listen(config.PORT,HOSTNAME, () => {
   logger.info(`Server je pokrenut na portu ${config.PORT}`)

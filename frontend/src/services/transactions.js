@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const transactionsUrl = "http://192.168.178.51:3001/api/transactions";
-const usersUrl = "http://192.168.178.51:3001/api/users";
+const transactionsUrl = "http://localhost:3001/api/transactions";
+const usersUrl = "http://localhost:3001/api/users";
 
 const getAllTransactions = (username) => {
   return axios.get(`${usersUrl}/${username}/transactions`);
