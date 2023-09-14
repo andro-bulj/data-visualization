@@ -1,5 +1,5 @@
 # data-visualization
-Data visualization in React
+RESTful web aplikacija koja služi za unos financijskih podataka i njihovo prikazivanje pomoću različitih metoda vizualizacije
 
 Projekt za završni rad - Andro Bulj
 
